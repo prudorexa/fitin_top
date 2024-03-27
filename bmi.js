@@ -1,9 +1,9 @@
-const url = 'https://fitness10.p.rapidapi.com/';
+const url = 'https://body-mass-index-bmi-calculator.p.rapidapi.com/metric?weight=150&height=1.83';
 const options = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': 'd1149e1416msh198f6fe8182459cp10bc36jsn4768637519c9',
-		'X-RapidAPI-Host': 'fitness10.p.rapidapi.com'
+		'X-RapidAPI-Host': 'body-mass-index-bmi-calculator.p.rapidapi.com'
 	}
 };
 
