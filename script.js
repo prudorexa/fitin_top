@@ -1,3 +1,4 @@
+async function fetchFitInTopData (){
 const url = 'https://fitness10.p.rapidapi.com/';
 const options = {
 	method: 'GET',
@@ -14,3 +15,5 @@ try {
 } catch (error) {
 	console.error(error);
 }
+}
+fetchFitInTopData();

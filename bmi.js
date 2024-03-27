@@ -1,3 +1,5 @@
+
+async function fetchBmiData() {
 const url = 'https://body-mass-index-bmi-calculator.p.rapidapi.com/metric?weight=150&height=1.83';
 const options = {
 	method: 'GET',
@@ -14,3 +16,5 @@ try {
 } catch (error) {
 	console.error(error);
 }
+}
+fetchBmiData();
