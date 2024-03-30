@@ -1,7 +1,18 @@
 
 body{
-    background-color:#000;
+    background-color:#F8F9FA;
 
+}
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
 
 .navbar{
@@ -38,23 +49,53 @@ li a{
     padding: 10px;
     width: 90px;
     align-content: flex-end;
+    flex-grow: inherit;
 }
 .navdiv ul li a{
     color: #fff; 
     font-weight: bold; 
     font-size: 15px;
-    align-items: flex-end;
+    text-align: left;
     text-decoration: none;
+
 }
+
 h1{
     font-size:xx-large;
     text-align:center;
     font-weight:bolder;
-    color:aliceblue;
+    color:#000;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
 
 }
+.search input[type=text] {
+    width: 300px;
+    height: 35px;
+    border-radius: 35px;
+    border: none;
+}
+
+.search {
+    float: right;
+    margin: 8px;
+}
+
+.search button {
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 15px;
+    margin-right: 18px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
 .site-footer {
-    background-color:#BBBBBB;
+    background-color:#111111;
     color: #fff;
     padding: 35px 0;
     font-size: 20px;
@@ -62,10 +103,12 @@ h1{
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:flex-start;
     max-width: 1300px;
     margin: 1 auto;
     padding: 0 20px;
+    text-transform:inherit;
+    text-align: left;
 }
 .footer-section {
     flex: 1;
