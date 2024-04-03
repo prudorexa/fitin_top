@@ -1,5 +1,6 @@
 const form = document.getElementById('payment-form');
 
+
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -9,5 +10,4 @@ form.addEventListener('submit', function(event) {
     // You can add PayPal integration logic here
     console.log(`Amount: ${amount}, Email: ${email}`);
     
-    // For PayPal integration, you can redirect users to PayPal checkout page or use PayPal API
 });
