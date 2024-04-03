@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-    background: rgb(46, 44, 45);
+    background:darkgray;
     font-family: calibri;
     padding-right: 15px;
     padding-left: 15px;
@@ -32,7 +32,7 @@ body {
 }
 
 navdiv {
-    display: grid;
+    display:flex;
     align-items: normal;
     justify-content: space-between;
 }
