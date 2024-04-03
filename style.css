@@ -73,8 +73,9 @@ li a {
     text-decoration: none;
 }
 .search-container {
-    position: relative;
-    margin: 10px; 
+    position:initial;
+    margin: 10px;
+    align-items: flex-end;
 }
 .search input[type=text] {
      width: 300px;
