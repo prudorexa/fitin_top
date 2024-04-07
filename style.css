@@ -82,6 +82,8 @@ li a {
      height: 35px;
      border-radius: 35px;
      border: none;
+     font-size: 18px;
+     background: transparent;
  }
 
 .search {
@@ -93,12 +95,13 @@ li a {
     background-color: #0074D9;
     color: #f2f2f2;
     float: right;
-    padding: 5px 15px;
+    padding: 9px 15px;
     margin-right: 18px;
     font-size: 20px;
     border: none;
     cursor: pointer;
-    align-self:self-start;
+    align-self:auto;
+    border-radius: 35px;
 }
 
 h1 {

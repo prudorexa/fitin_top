@@ -122,6 +122,12 @@ body.dark {
 	width: 235px;
 }
 
+button .fa-duotone{
+	width: 25px;
+	color: #111;
+	font-size: 22px;
+	cursor: pointer;
+}
 .social-panel p i {
 	margin: 0 5px;
 }
