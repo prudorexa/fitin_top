@@ -55,13 +55,14 @@ body {
 .search form {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .search input[type="text"] {
     padding: 8px;
     border: none;
     border-radius: 5px 0 0 5px;
+    margin-bottom: 2px;
 }
 
 .search button {
@@ -72,6 +73,7 @@ body {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-bottom: 2px;
 }
 
 .search button:hover {
@@ -80,6 +82,7 @@ body {
 
 .search button i {
     font-size: 18px;
+    margin-bottom: 2px;
 }
 
 
