@@ -83,7 +83,7 @@ li a {
      border-radius: 35px;
      border: none;
      font-size: 18px;
-     background: transparent;
+     background:fixed;
  }
 
 .search {
@@ -100,7 +100,7 @@ li a {
     font-size: 20px;
     border: none;
     cursor: pointer;
-    align-self:auto;
+    align-self: safe;
     border-radius: 35px;
 }
 
