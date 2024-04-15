@@ -1,62 +1,49 @@
-.contact {
-  padding: 40px 100px;
-  width: 100%;
-  min-height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contact .form{
-  width: 50%;
-  margin: 30px;
-  margin-bottom: 10;
-  margin-top: 10;
-  border-radius: 10px;
-  margin-left: 30;
-  margin-right: 50;
+.form {
+  max-width: 400px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #1B2141;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.contact .form h1{
-  color: aliceblue;
+
+.form h1 {
+  margin-bottom: 20px;
+  text-align: center;
 }
-.contact .form .inputBox{
-  margin: 10px 0;
+
+.inputBox {
+  margin-bottom: 20px;
 }
-.contact .form .inputBox p{
-  color: azure;
+
+.inputBox p {
+  margin-bottom: 5px;
+  font-weight: bold;
 }
-.contact .form .inputBox input,
-.contact .form .inputBox textarea{
-  border: none;
-  outline: none;
-  padding: 50px;
+
+.inputBox input[type="text"],
+.inputBox textarea {
   width: 100%;
-  color: azure;
-  background-color: #1B2141;
-  min-height: 20px;
-  font-size: 1.1em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.contact .form .inputBox textarea{
-  height: 150px;
+
+.inputBox textarea {
+  resize: vertical;
 }
-.contact .form .inputBox input[type="submit"]{
-  display: inline-block;
-  padding: 20px 30px;
-  margin: 20px 0;
-  outline: none;
-  background: transparent;
-  border: 1px solid lightblue;
-  text-decoration: none;
-  font-weight: 700;
-  width: 150px;
-  border-radius: 15px;
-  color: azure;
-  letter-spacing: 1px;
-}
-.contact .form .inputBox input[type="submit"]:hover{
-  background-color: lightblue;
+
+.inputBox input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  color: #1B2141;
-  box-shadow: 0 0 10px lightblue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inputBox input[type="submit"]:hover {
+  background-color: #0056b3;
 }

@@ -13,11 +13,11 @@ header {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 nav ul li {
-    display: inline;
+    display:flexbox;
     margin-right: 20px;
 }
 
@@ -31,8 +31,8 @@ nav ul li a.active {
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 700px;
+    margin: 30px auto;
     padding: 20px;
 }
 
