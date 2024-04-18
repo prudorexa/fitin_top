@@ -1,0 +1,79 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    const searchServicesInput = document.getElementById('searchServicesInput');
+      const searchResults = document.getElementById('searchResults');
+      const data = [
+     "General Dermatology Services in Adults and Adolescents",
+     "Paediatric Dermatology",
+     "Treatment of Nail Disorders",
+     "Phototherapy",
+     "Laser Hair Removal",
+    "Hair Loss Treatment",
+    "Skin Phototyping",
+     "Anti Aging Products",
+     "Platelet-Rich Plasma (PRP) Injection",
+     "Botox Injection",
+     "Hyperpigmentation Diagnosis and Treatment",
+     "Skin Cancer Diagnostic Services",
+     "Acne Pimples in Adults and Adolescents",
+     "Age Spots",
+     "Skin Warts",
+     "Itchy Skin",
+     "Eczema",
+     "Laser Skin Removal",
+     "Vitiligo",
+     "Excessive Sweating or Hyperhidrosis",
+     "Facial Wrinkles",
+     "Dry Skin",
+     "Psoriasis",
+     "Sunburns",
+     "Treatment",
+     "Skin Tightening",
+     "Allergy Screening",
+     "Laser Hair Removal",
+     "Skin Resurfacing",
+     "Mohs Surgery",
+     "Annual Skin Screening",
+     "Mole Treatment",
+     "Scar Treatment",
+     "Anti-Aging Treatment",
+     "Cryotherapy",
+     "Dermatology Surgery",
+     "Electrocautery",
+     "Fungal Screening",
+     "Allergy tests"
+    ];
+ // filters data based on search input
+      function filterData(searchTerm) {
+        return data.filter(item =>
+          item.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+      }
+// displays search results
+      function displayResults(results) {
+        searchResults.innerHTML = ''; // Clear previous results
+        if (results.length === 0) {
+          searchResults.innerHTML = 'No results found';
+          return;
+        }
+        results.forEach(result => {
+          const resultElement = document.createElement('div');
+          resultElement.textContent = result;
+          searchResults.appendChild(resultElement);
+        });
+      }
+      // Event listener for input changes
+      searchServicesInput.addEventListener('input', () => {
+        const searchTerm = searchServicesInput.value.trim();
+        const filteredData = filterData(searchTerm);
+        displayResults(filteredData);
+      });
+    
+</body>
+</html> -->

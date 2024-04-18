@@ -7,6 +7,11 @@
     <title>contact us!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('TXdJNs2_UPNr0ONrM')
+    </script>
 
 </head>
 
@@ -36,32 +41,28 @@
     </nav>
     <div class="form">
         <h1>Contact Us</h1>
+        
         <div class="inputBox">
             <p>Enter Name</p>
-            <input type="text" placeholder="Full Name..." required>
+            <input type="text"name= "fname" placeholder="Enter name..." id="fname" required>
         </div>
         <div class="inputBox">
             <p>Enter Email</p>
-            <input type="text" placeholder="Email Address..." required>
+            <input type="text"name= "email_id" placeholder="Email Address..." id="email_id" required>
         </div>
         <div class="inputBox">
             <p>Message</p>
-            <textarea placeholder="Type your message here..."></textarea>
+            <textarea placeholder="Type your message here..."name="message" id="message"></textarea>
         </div>
-        <div class="inputBox">
-            <input type="Submit" name="Submit">
+        <div class="d-grid gap-2">
+            <button onclick="sendMail()" ; return false; class="btn btn-success font-family-base fw-bold sticky-top"
+                id="rest" type="submit">Submit</button>
         </div>
-        </form>
-
-
+        </button>
 
     </div>
-
-
-
-
-
-
+    </form>
+    </div>
     </div>
 
     <body>
@@ -102,6 +103,8 @@
                     <p>&copy; 2024 fitin top. All rights reserved.</p>
                 </div>
             </footer>
+
+            <script src="contact.js"></script>
 
 
     </body>

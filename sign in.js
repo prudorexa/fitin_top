@@ -23,15 +23,12 @@ googleLogin.addEventListener('click', function () {
    
     const credential = GoogleAuthProvider.credentialFromResult(result);
     const token = credential.accessToken;
-    // The signed-in user info.
     const user = result.user;
    
     // ...
   }).catch((error) => {
-    // Handle Errors here.
     const errorCode = error.code;
     const errorMessage = error.message;
-    // The email of the user's account used.
     const email = error.customData.email;
    
     const credential = GoogleAuthProvider.credentialFromError(error);
